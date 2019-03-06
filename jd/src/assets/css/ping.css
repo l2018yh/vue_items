@@ -1,0 +1,542 @@
+
+
+
+.content{
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+header {
+    width: 100%;
+    color: #898989;
+    font-size: .14rem;
+    background: #fff;
+}
+.head{
+    width: 100%;
+    height: .4rem;
+    overflow:hidden;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f0f0f0;
+}
+.icon-right{
+    font-size: .16rem;
+    color: #666;
+    margin: 0 .14rem;
+}
+.h_middle{
+    width: 70%;
+    height: .3rem;
+    font-size: .16rem;
+    color: #333;
+    border-radius: .14rem;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+.h_right{
+    margin-right: .1rem;
+}
+
+.head_middle{
+    width: 100%;
+    /*height: .28rem;*/
+    position: relative;
+}
+.icon-ICON-search{
+     font-size: .12rem;
+     padding:0 .15rem;
+     color: #b6b6b6;
+     position: absolute;
+    top: .18rem;
+    left: .15rem;
+ }
+.head_middle input{
+    height: .3rem;
+    width: 95%;
+    border-radius: .4rem;
+    margin: .1rem;
+    margin-bottom: 0;
+    background: #f2f2f7;
+    border: none;
+    outline: none;
+    text-indent: .4rem;
+}
+.head_middle input -webkit-input-placeholder{
+    color: #666;
+}
+/*右侧点击导航*/
+.nav_li{
+    width: 1.25rem;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    right: .1rem;
+    top: .53rem;
+    z-index: 10;
+    border-radius: .05rem;
+    display: none;
+}
+.sanjiao{
+    float: right;
+    position: absolute;
+    top: -.1rem;
+    right: .1rem;
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+    border-bottom-color: rgba(0,0,0,.9);
+}
+.nav_list{
+    height: .4rem;
+    border-bottom: 1px solid hsla(0,0%,100%,.2)
+}
+.nav_list a{
+    display: block;
+    width: 100%;
+    line-height: .4rem;
+    font-size: .14rem;
+    color: #fff;
+    display: -webkit-flex;
+}
+.nav_list span{
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    margin: .01rem;
+    background: url(../img/in.jpg) no-repeat;
+}
+/*拼购产品*/
+.ping_product{
+    width: 100%;
+    background: #fff;
+}
+.jing_pro{
+    float: left;
+    width: .5rem;
+    margin-bottom: .005rem;
+    border-right: 1px solid #e9e8e6;
+}
+.jx{
+    padding-right: .08rem;
+    padding-top: 0;
+}
+.jing a{
+    display: block;
+    padding: .05rem .1rem 0;
+}
+.jing a span{
+    width: .3rem;
+    float: left;
+    color: #696969;
+    font-size: .14rem;
+    line-height: .3rem;
+    padding-bottom: .05rem;
+}
+
+.ping_title{
+
+    display: -webkit-flex;
+    /*justify-content: space-between;*/
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    flex-shrink: 0;
+    background: #fff;
+}
+.ping_title li{
+    width: .5rem;
+    text-align: center;
+}
+.act a span{
+    display: block;
+    color: #e93b3d;
+    border-bottom: 1px solid #e93b3d;
+}
+/*轮播图*/
+.swiper-container1{
+    width: 100%;
+    height: 1.05rem;
+}
+.sp-img img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container1 .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    /*border:1px solid #fff;*/
+    opacity: 1;
+    background: #fff;
+}
+.swiper-container1 .swiper-pagination-bullet-active {
+    width: 10px;
+    height: 4px;
+    background: red;
+    border-radius: 2px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -.2rem;
+}
+/*店铺分类*/
+.shop_list{
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: .1rem 0;
+}
+.shop_list a{
+    width: 20%;
+    height: .55rem;
+    font-size: .12rem;
+    color: #666;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin: .1rem 0;
+}
+.shop_list img{
+    width: .36rem;
+    height: .36rem;
+}
+
+/*囤年货*/
+.tun{
+    width: 100%;
+    height: .8rem;
+    background: #fff;
+    display: -webkit-flex;
+}
+.tun li{
+    width: 30%;
+}
+.tun li:nth-of-type(2){
+    width: 40%;
+}
+.tun li img{
+    width: 100%;
+    height: 100%;
+}
+/*今日必拼*/
+.need_ping{
+    width: 100%;
+}
+.miaosha{
+    height: 2rem;
+    width: 92%;
+    padding:.15rem .15rem 0;
+    overflow: hidden;
+    background: url(../img/pbg.png) no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+}
+.m_title{
+    height: .17rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.miao_left,.miao_right{
+    line-height: .2rem;
+}
+.miao_left .mi_tle{
+    float: left;
+    font-size: .16rem;
+    color: #f02b2b;
+    margin-right: .08rem;
+}
+.miao_left .mi_time{
+    float: left;
+    display: block;
+    color: #999;
+    font-size: .13rem;
+}
+.miao_right a{
+    float: left;
+    font-size: .12rem;
+    line-height: .12rem;
+    color: #999;
+    margin-right: .05rem;
+    vertical-align: middle;
+}
+.miao_right img{
+    width: .12rem;
+    height: .12rem;
+    line-height: .12rem;
+    vertical-align: middle;
+}
+/*倒计时*/
+.time-item{
+    font-size: .1rem;
+    color: #dfdfdf;
+    float: left;
+}
+.time-item strong{
+    padding:0 .02rem;
+    border: 1px solid #dfdfdf;
+}
+/*拼团商品*//*轮播图*/
+.swiper-container2{
+    width: 100%;
+    padding-bottom:.12rem;
+    height: 1.65rem;
+}
+
+.swiper-container2 .swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    opacity: 1;
+    background:rgba(0,0,0,.2) ;
+}
+.swiper-container2 .swiper-pagination-bullet-active {
+    width: 10px;
+    height: 4px;
+    background: rgba(0,0,0,.5);
+    border-radius: 2px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: -.25rem;
+}
+.miao_shop{
+    display: -webkit-flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    margin-top: .1rem;
+    overflow: hidden;
+}
+.miao_shop .miao_li{
+    width: 30%;
+    padding: .05rem;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.miao_li a{
+    width:1.08rem;
+    height: 1.08rem;
+}
+.miao_li img{
+    width: 100%;
+    height: 100%;
+}
+.miao_li .miao_new_price{
+    margin-top: .06rem;
+    line-height: .16rem;
+    font-size: .12rem;
+    color: #f02b2b;
+}
+.miao_new_price span{
+    /*display: block;*/
+}
+.miao_new_price strong{
+    font-size: .14rem;
+    color: #f02b2b;
+    margin-left: .05rem;
+}
+.miao_li .miao_old_price{
+    /*display: block;*/
+    font-size: .12rem;
+    color: #686868;
+    line-height: .22rem;
+}
+/*拼购商品列表*/
+.yard_list{
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.yard_li_show{
+    margin:.02rem 0;
+    width: 44.3%;
+    padding:.08rem .1rem;
+    background: url(../img/pbg01.png);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.ping_li_show{
+    background: url(../img/pbgright.png);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.life_t{
+    display: block;
+    font-size: .14rem;
+    font-weight: 800;
+}
+.life_title{
+    color: #e93b3d;
+}
+.ping_list{
+    width: 100%;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding:.02rem;
+    align-items: center;
+}
+.ping_li{
+    width: 46%;
+}
+.ping_li a{
+    float: left;
+    width: .76rem;
+    height: .76rem;
+    margin: .1rem 0;
+}
+.ping_li img {
+    width: 100%;
+    height: 100%;
+}
+.ping_new_price{
+    font-size: .14rem;
+    color: #e93b3d;
+}
+.ping_old_price{
+    float: right;
+    margin-right: .08rem;
+    font-size: .1rem;
+    color: #999;
+    text-decoration: line-through;
+}
+.ping_jian{
+    display: block;
+    font-size: .12rem;
+    color: #999;
+}
+/*一元疯狂抢购*/
+.qiang{
+    width: 100%;
+    height: 2.7rem;
+    background: url(../img/bd174155243630c8.gif);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+}
+.qiang_pro{
+    display: -webkit-flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: .2rem;
+    left: 0;
+}
+.qiang_pro li{
+    width: 25%;
+    height: 1.3rem;
+}
+.qiang_pro li img{
+    width: 100%;
+    height: 100%;
+}
+/*每日上新好货*/
+.new_goods{
+    width: 100%;
+    margin-top: .05rem;
+    background: #fff;
+}
+.new_title{
+    padding: .1rem 0;
+    text-align: center;
+}
+.new_title h4{
+    font-weight: 400;
+    font-size: .16rem;
+    color: #333;
+}
+.new_title p{
+    font-size: .12rem;
+    color: #666;
+}
+/*上新商品详情*/
+.new_pro_list{
+    width: 100%;
+    background: #fff;
+}
+.new_pro_list li{
+    display: -webkit-flex;
+}
+.new_pro_list img{
+    width: 1.58rem;
+    height: 1.58rem;
+}
+.pro_info{
+    border-top: .01rem solid #f2f2f2;
+    padding:.15rem;
+}
+.pro_minute{
+    font-size: .12rem;
+    color: #232326;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.pro_label{
+    font-weight: 500;
+    font-size: .12rem;
+    color: #999;
+    line-height: .3rem;
+    margin-left: .1rem;
+}
+.pro_label span{
+    background: #f7f7f7;
+}
+.pro_right{
+    margin-left: .2rem;
+}
+.pro_price{
+    margin-top: .4rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.price_left p:nth-of-type(1){
+    font-size: .14rem;
+    color: #e93b3d;
+}
+.price_left p:nth-of-type(2){
+    font-size: .12rem;
+    color: #e93b3d;
+}
+.pro_open{
+    height:.3rem;
+    margin-top: .06rem;
+    color: #fff;
+    font-size: .14rem;
+    line-height: .3rem;
+    padding:0 .2rem;
+    border-radius: .15rem;
+    background: -webkit-gradient(linear,left top,right top,from(#e93b3d),to(#ff9474));
+    background: -webkit-linear-gradient(left,#e93b3d,#ff9474);
+    background: linear-gradient(90deg,#e93b3d,#ff9474);
+    box-shadow: 0 0.08rem 0.9rem rgba(233,59,61,.2);
+}
+.pingjia_img{
+    width: 100%;
+    height: 1rem;
+}
+.pingjia_img img{
+    width: 100%;
+    height: 100%;
+}
+.pingjia_list{
+    width: 100%;
+}
+.pingjia_list h2{
+    font-size: .12rem;
+    color: #333;
+    width:1.08rem;
+    white-space: nowrap;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav_list strong{
+    font-weight: 400;
+}

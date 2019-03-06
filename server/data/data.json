@@ -1,0 +1,41 @@
+
+{
+  "shopList":[
+    {
+      "id":"0010",
+      "listImg":"../static/images/sh01.jpg",
+      "infoTitle":"秋芙罗2018冬季新款大毛领妈妈装羽绒服女中长款中年女士面包棉服保暖外套中老年女装冬装FL98763 皮红 4XL",
+      "infoPrice":"215.00",
+      "infoPl":"406",
+      "infoMinTitle":"秋水伊人官方旗舰店",
+      "infoMinTleImg":"../static/images/02.png"
+    },
+    {
+      "id":"0011",
+      "listImg":"../static/images/nv02.jpg",
+      "infoTitle":"艾莱依羽绒服女中长款2018冬季新款韩版时尚收腰显过膝连帽大毛领外套 粉色 165/88A/L",
+      "infoPrice":"749.00",
+      "infoPl":"28",
+      "infoMinTitle":"京牛服饰专营店",
+      "infoMinTleImg":"../static/images/02.png"
+    },
+    {
+      "id":"0012",
+      "listImg":"../static/images/nz01.jpg",
+      "infoTitle":"凡兔ONE-T 大毛领插肩长袖大口袋罗纹收口连帽人造毛领中长款女装棉衣棉服女装外套 橡皮粉 S(155/80A)",
+      "infoPrice":"379.00",
+      "infoPl":"63",
+      "infoMinTitle":"唯品会旗舰店",
+      "infoMinTleImg":"../static/images/02.png"
+    },
+    {
+      "id":"0013",
+      "listImg":"../static/images/sh01.jpg",
+      "infoTitle":"秋芙罗2018冬季新款大毛领妈妈装羽绒服女中长款中年女士面包棉服保暖外套中老年女装冬装FL98763 皮红 4XL",
+      "infoPrice":"430.00",
+      "infoPl":"",
+      "infoMinTitle":"韩都衣舍官方旗舰店",
+      "infoMinTleImg":"../static/images/02.png"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+
+
+
+
+
+/*头部*/
+header {
+    /* height: .44rem; */
+    width: 100%;
+    color: #898989;
+    font-size: .14rem;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .1rem 0;
+    background: #fff;
+}
+.icon-right{
+    font-size: .16rem;
+    color: #666;
+    margin: 0 .14rem;
+}
+.h_middle img{
+    width: .14rem;
+    height: .16rem;
+    margin-left: .08rem;
+    float: right;
+}
+.head_right span{
+    float: left;
+    margin-right: .1rem;
+}
+.h_right{
+    margin: .08rem .05rem 0 0;
+}
+/*右侧点击导航*/
+.nav_li{
+    width: 1.25rem;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    right: .1rem;
+    top: .53rem;
+    z-index: 10;
+    border-radius: .05rem;
+    display: none;
+}
+.sanjiao{
+    float: right;
+    position: absolute;
+    top: -.1rem;
+    right: .1rem;
+    width: 0;
+    height: 0;
+    border:5px solid transparent;
+    border-bottom-color: rgba(0,0,0,.9);
+}
+.nav_list{
+    height: .4rem;
+    border-bottom: 1px solid hsla(0,0%,100%,.2)
+}
+.nav_list a{
+    display: block;
+    width: 100%;
+    line-height: .4rem;
+    font-size: .14rem;
+    color: #fff;
+    display: -webkit-flex;
+}
+.nav_list span{
+    display: block;
+    width: .4rem;
+    height: .4rem;
+    margin: .01rem;
+    background: url(../img/in.jpg) no-repeat;
+}
+/*加购商品列表*/
+.car_shop_list {
+    width: 100%;
+    background: #fff;
+}
+.car_shop_list li{
+    width: 92%;
+    padding: .2rem;
+}
+.shop_title{
+    display: -webkit-flex;
+    position: relative;
+    margin: 0 0 .15rem;
+}
+.shop_title .checbox{
+    width: .18rem;
+    height: .18rem;
+    border-radius: 50%;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    background: url(../img/xuant.jpg) no-repeat left top;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.shop_title input{
+    width: .18rem;
+    height: .18rem;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+}
+.shop_pho{
+    width: .14rem;
+    height: .14rem;
+    margin: .02rem .05rem 0 .2rem;
+}
+.shop_title h4{
+    font-size: .14rem;
+}
+.youjian{
+    width: .14rem;
+    height: .14rem;
+    margin-top: .02rem;
+    margin-left:.05rem;
+}
+.manjian{
+    width: 85%;
+    margin-left: .35rem;
+    font-size: .12rem;
+    color: #333;
+}
+.mj{
+    padding: .01rem .06rem;
+    border-radius: .4rem;
+    color: #fff;
+    background: #f0250f;
+    margin-right: .05rem;
+}
+.guang{
+    float: right;
+    color: #f0250f;
+}
+.guang img{
+    float: right;
+    width: .08rem;
+    height: .12rem;
+    margin-top: .03rem;
+    margin-left: .02rem;
+}
+/*选购商品详情*/
+.goods_list{
+    margin-top: .1rem;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.goods_pro{
+    position: relative;
+}
+.goods_pro .checbox{
+    position: absolute;
+    top: .45rem;
+    left: 0;
+}
+.goods_pro{
+    padding: .2rem .1rem;
+    display: -webkit-flex;
+}
+.goods_pro img{
+    width: .85rem;
+    height: .85rem;
+    margin: 0 .08rem;
+}
+.good_info{
+    font-size: .12rem;
+    /*color: #232326;*/
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.good_spec {
+    font-size: .12rem;
+    color: #666;
+    line-height: .35rem;
+}
+.good_spec span{
+    float: right;
+}
+.good_price{
+    font-size: .14rem;
+    color: #999;
+}
+.god_pri{
+    float: left;
+    color: #ef0000;
+}
+.good_num{
+    float: right;
+    font-size: .14rem;
+    display: -webkit-flex;
+}
+.good_num input{
+    width: .15rem;
+    height: .15rem;
+    border: none;
+    outline: none;
+}
+.good_num span{
+    display: block;
+    width: .25rem;
+    height: .16rem;
+    text-align: center;
+    background-color: rgb(246,246,246);
+}
+/*结算*/
+.total{
+    /*height: .4rem;*/
+    background: #fff;
+    display: -webkit-flex;
+    justify-content: space-between;
+    padding-left: .15rem;
+}
+.total_check{
+    font-size: .14rem;
+    color: #666;
+    margin-top: .15rem;
+    background: url(../img/xuanf.jpg) left top no-repeat;
+}
+.total_check input{
+    width: .2rem;
+    height: .2rem;
+    border-radius: 50%;
+    border: none;
+    margin-right: .08rem;
+    vertical-align: middle;
+    outline: none;
+    background: transparent;
+}
+.total_middle{
+    font-size: .12rem;
+    color: #666;
+    margin-top: .1rem;
+}
+.total_middle strong{
+    color: #1b1b1e;
+    font-size: .14rem;
+    font-weight: 600;
+}
+.go_total{
+    height: .5rem;
+    padding: 0 .15rem;
+    color: #fff;
+    border: none;
+    background: #f30600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

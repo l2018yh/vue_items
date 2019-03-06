@@ -1,0 +1,43 @@
+{
+  "user":{},
+  "totalPrice":0,
+  "checked":true,
+  "shops":[
+    {
+      "shopName":"秋水伊人官方旗舰店",
+      "level":1,
+      "flag":1,
+      "totalPrice":0,
+      "products":[
+        {
+          "pic":"../static/images/female01.jpg",
+          "title":"秋水伊人羽绒服2018冬装新款女装简约保暖毛领韩版白鸭绒外套女 粉橘 160/84A/M",
+          "price":"699.00",
+          "gal":"",
+          "flag":1,
+          "attrs":{
+              "size":"160/84A/M 粉橘"
+          }
+        }
+      ]
+    },
+    {
+      "shopName":"唯品会官方旗舰店",
+      "level":1,
+      "checked":true,
+      "totalPrice":0,
+      "products":[
+        {
+          "pic":"../static/images/female01.jpg",
+          "title":"秋水伊人羽绒服2018冬装新款女装简约保暖毛领韩版白鸭绒外套女 粉橘 160/84A/M",
+          "price":"1300.00",
+          "gal":"",
+          "flag":1,
+          "attrs":{
+            "size":"160/84A/M 白色"
+          }
+        }
+      ]
+    }
+  ]
+}

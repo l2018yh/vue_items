@@ -1,0 +1,161 @@
+{
+  "shopList":[
+    {
+      "id":1001,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"9.9包邮"
+    },
+    {
+      "id":1002,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"1元福利"
+    },
+    {
+      "id":1003,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"好货清单"
+    },
+    {
+      "id":1004,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"自营优选"
+    },
+    {
+      "id":1005,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"平价超市"
+    },
+    {
+      "id":1006,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"名品清仓"
+    },
+    {
+      "id":1007,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"工厂直销"
+    },
+    {
+      "id":1008,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"砍价免费领"
+    },
+    {
+      "id":1009,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"签到领红包"
+    },
+    {
+      "id":1010,
+      "shopImg":"../static/images/shop_list.png",
+      "shoptitle":"限时5折"
+    }
+  ],
+  "commendshop":[
+    {
+      "sid":"0010",
+      "simg":"../static/images/shop01.jpg",
+      "sinfo":"沙漏计时器儿童防摔时间30/60分钟小摆件创意家居装饰品生日礼物 木质小沙漏-三分钟",
+      "spri":"15.8",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0011",
+      "simg":"../static/images/shop03.jpg",
+      "sinfo":"秋水伊人羽绒服2018冬装新款女装简约保暖毛领韩版白鸭绒外套女 粉橘 160/84A/M",
+      "spri":"979",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0012",
+      "simg":"../static/images/shop04.jpg",
+      "sinfo":"华硕（ASUS） 飞行堡垒6 15.6英寸游戏笔记本电脑八代i7标压吃鸡4G独显IPS屏 飞行堡垒5GTX1050Ti 4G 冰魂版 配置二：i5八代 8G 1T/128G固态 定制",
+      "spri":"6099",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0013",
+      "simg":"../static/images/shop05.jpg",
+      "sinfo":"凡兔ONE-T 大毛领插肩长袖大口袋罗纹收口连帽人造毛领中长款女装棉衣棉服女装外套 橡皮粉 M(160/84A)",
+      "spri":"359",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0014",
+      "simg":"../static/images/shop06.jpg",
+      "sinfo":"BGQ 无线蓝牙耳机运动双耳入耳式跑步挂脖防水耳麦 苹果vivo小米华为oppo安卓通用 黑色",
+      "spri":"23",
+      "plus":"../static/images/plus.png",
+      "oldpri":"19"
+    },
+    {
+      "sid":"0015",
+      "simg":"../static/images/shop07.jpg",
+      "sinfo":"王老五狗屎糖430g 四川特产休闲零食糖果点心酥糖狗年创意布袋礼品 香辣味430g",
+      "spri":"23.8",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0016",
+      "simg":"../static/images/shop01.jpg",
+      "sinfo":"沙漏计时器儿童防摔时间30/60分钟小摆件创意家居装饰品生日礼物 木质小沙漏-三分钟",
+      "spri":"15.8",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0017",
+      "simg":"../static/images/shop03.jpg",
+      "sinfo":"秋水伊人羽绒服2018冬装新款女装简约保暖毛领韩版白鸭绒外套女 粉橘 160/84A/M",
+      "spri":"979",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0018",
+      "simg":"../static/images/shop04.jpg",
+      "sinfo":"华硕（ASUS） 飞行堡垒6 15.6英寸游戏笔记本电脑八代i7标压吃鸡4G独显IPS屏 飞行堡垒5GTX1050Ti 4G 冰魂版 配置二：i5八代 8G 1T/128G固态 定制",
+      "spri":"6099",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0019",
+      "simg":"../static/images/shop05.jpg",
+      "sinfo":"凡兔ONE-T 大毛领插肩长袖大口袋罗纹收口连帽人造毛领中长款女装棉衣棉服女装外套 橡皮粉 M(160/84A)",
+      "spri":"359",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0020",
+      "simg":"../static/images/shop06.jpg",
+      "sinfo":"BGQ 无线蓝牙耳机运动双耳入耳式跑步挂脖防水耳麦 苹果vivo小米华为oppo安卓通用 黑色",
+      "spri":"23",
+      "plus":"../static/images/plus.png",
+      "oldpri":"19"
+    },
+    {
+      "sid":"0021",
+      "simg":"../static/images/shop07.jpg",
+      "sinfo":"王老五狗屎糖430g 四川特产休闲零食糖果点心酥糖狗年创意布袋礼品 香辣味430g",
+      "spri":"23.8",
+      "plus":"",
+      "oldpri":""
+    },
+    {
+      "sid":"0021",
+      "simg":"../static/images/shop07.jpg",
+      "sinfo":"王老五狗屎糖430g 四川特产休闲零食糖果点心酥糖狗年创意布袋礼品 香辣味430g",
+      "spri":"23.8",
+      "plus":"",
+      "oldpri":""
+    }
+  ]
+
+}

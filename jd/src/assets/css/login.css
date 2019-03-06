@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,textarea,figure{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    /*display:-webkit-flex;*/
+    /*-webkit-flex-direction:column;*/
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+img{
+    display: block;
+    border:none;
+}
+html,body{
+    /*height:100%;*/
+}
+html{
+    font-size:26.67vw;
+}
+
+.lg_title{
+    height: .36rem;
+    width: 100%;
+    line-height: .36rem;
+}
+.lg_title i{
+    float: left;
+    font-size: .16rem;
+    margin-left:.16rem;
+}
+.lg_title p{
+    font-size: .16rem;
+    text-align: center;
+}
+.conter{
+    margin:0 .20rem;
+}
+.user,.pass{
+    height: .5rem;
+    margin-top: .2rem;
+    width: 100%;
+    border-bottom: 1px solid #f1f1f1;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.user input{
+    width: 100%;
+}
+.user input,.pass input{
+    border: none;
+    outline: none;
+}
+.user input::-webkit-input-placeholder,.pass input::-webkit-input-placeholder{
+    color:#9f9f9f;
+    font-size: .16rem;
+    line-height: .26rem;
+}
+.pass span{
+    display: -webkit-flex;
+    align-items: center;
+}
+.pass span a{
+    font-size: .14rem;
+    color: #6a6a6a;
+    border-left: 2px solid #f1f1f1;
+    padding-left:.12rem;
+    margin-left: .12rem;
+}
+.icon-yincang1{
+    color: #c4c4c4;
+}
+.login_btn{
+    font-size:.16rem;
+    width: 100%;
+    height: .42rem;
+    background: #fcb7b3;
+    color: #fff;
+    display: block;
+    border:none;
+    outline: none;
+    margin-top: .3rem;
+    border-radius: .18rem;
+}
+.login_btn_one{
+    margin-top:.08rem;
+    border: 2px solid #ff4024;
+    background: #fff;
+    color: #f43131;
+}
+.login_reg{
+    margin-top: .2rem;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+.login_reg a{
+    color: #9f9f9f;
+    font-size: .14rem;
+}
+/*其他登录方式*/
+.else_way{
+    margin-top: .88rem;
+    border-top: 2px solid #f0f0f0;
+    position: relative;
+    text-align: center;
+}
+.else_way .qita{
+    font-size: .14rem;
+    color: #d3d3d3;
+    position: absolute;
+    top:-.14rem;
+    padding:.05rem .15rem;
+    left: 35%;
+    background: #fff;
+}
+.login_way{
+    height: .8rem;
+    display: -webkit-flex;
+    justify-content: center;
+    margin-top:.245rem;
+}
+.login_way a{
+    position: relative;
+    width: .48rem;
+    height: .48rem;
+    color: #616161;
+    border-radius: 50%;
+    margin: 0 .15rem;
+    font-size: .14rem;
+}
+.login_way a:nth-of-type(1){
+    background: #e7f7fe;
+}
+.login_way a:nth-of-type(1) .icon-QQ{
+    color: #07b2f4;
+    position: absolute;
+    left: .15rem;
+    top: .15rem;
+}
+.login_way a:nth-of-type(1) span{
+    position: absolute;
+    left: .12rem;
+    top: .5rem;
+}
+.login_way a:nth-of-type(2){
+    background: #e6f8e6;
+}
+.login_way a:nth-of-type(2) .icon-weixin{
+    color: #08bb06;
+    position: absolute;
+    left: .15rem;
+    top: .15rem;
+}
+.login_way a:nth-of-type(2) span{
+    position: absolute;
+    left: .12rem;
+    top: .5rem;
+}
+.xiyi{
+    font-size:.16rem;
+    color: #616161;
+    magin-top:.12rem;
+}
+.xiyi a{
+    font-size: .16rem;
+    color: #68b2ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
